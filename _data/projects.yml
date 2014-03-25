@@ -1,3 +1,8 @@
+hhvm:
+    name: HHVM
+    url: http://hhvm.com/
+    summary: "HHVM is an open-source virtual machine designed for executing programs written in Hack and PHP."
+
 hippyvm:
     name: Hippyvm
     url: http://hippyvm.com/
@@ -5,11 +10,6 @@ hippyvm:
     links:
       - text: "Prototype PHP interpreter using the PyPy toolchain - Hippy VM"
         url: http://morepypy.blogspot.co.uk/2012/07/hello-everyone.html
-
-hhvm:
-    name: HHVM
-    url: http://hhvm.com/
-    summary: "HHVM is an open-source virtual machine designed for executing programs written in Hack and PHP."
 
 php:
     name: PHP
