@@ -1,3 +1,16 @@
+hippyvm:
+    name: Hippyvm
+    url: http://hippyvm.com/
+    summary: "An implementation of the PHP language in RPython"
+    links:
+      - text: "Prototype PHP interpreter using the PyPy toolchain - Hippy VM"
+        url: http://morepypy.blogspot.co.uk/2012/07/hello-everyone.html
+
+hhvm:
+    name: HHVM
+    url: http://hhvm.com/
+    summary: "HHVM is an open-source virtual machine designed for executing programs written in Hack and PHP."
+
 php:
     name: PHP
     url: http://php.net/
@@ -5,3 +18,8 @@ php:
     links:
       - text: "PHP is a popular general-purpose scripting language that is especially suited to web development."
         url: http://php.net/
+
+phpphp:
+    name: PHPPHP
+    url: https://github.com/ircmaxell/PHPPHP
+    summary: "A PHP VM implementation in PHP"
