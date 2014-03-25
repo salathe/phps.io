@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<section id="projects">
+    <header>
+      <h2>PHP implementations <span class="amp">&amp;</span> related projects</h2>
+    </header>
+    {% for project in site.data.projects %}
+    {% assign pid = project[0] %}
+    {% assign p = project[1] %}
+    <article>
+      <header>
+        <h3><a name="{{ pid }}" href="#{{ pid }}" class="project_name">{{ p.name }}</a></h3>
+      </header>
+      <p class="project_url"><a href="{{ p.url }}">{{ p.url }}</a></p>
+      <div class="main_content">
+        <p>{{ p.summary }}</p>
+        {% if p.links %}
+        <h4>Resources</h4>
+        <ul class="links">
+            {% for link in p.links %}
+            {% assign link_parts = link.url | split:"/" %}
+            {% assign host = link_parts[2] %}
+            <li>
+              <a href="{{ link.url }}">{{ link.text }}</a>
+              <span class="host">{{ host }}</span>
+            </li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+</section>
