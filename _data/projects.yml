@@ -11,6 +11,11 @@ hippyvm:
       - text: "Prototype PHP interpreter using the PyPy toolchain - Hippy VM"
         url: http://morepypy.blogspot.co.uk/2012/07/hello-everyone.html
 
+phalanger:
+    name: Phalanger
+    url: http://www.php-compiler.net/
+    summary: "PHP runtime & compiler for .NET/Mono"
+
 php:
     name: PHP
     url: http://php.net/
