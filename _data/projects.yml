@@ -24,7 +24,7 @@ phalanger:
 php:
     name: PHP
     url: http://php.net/
-    summary: "Historical PHP"
+    summary: "PHP!"
 
 phpphp:
     name: PHPPHP
