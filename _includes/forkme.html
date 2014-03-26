@@ -1,34 +1,35 @@
 <style>
 #forkme {
-  background-color: #8892bf;
   overflow: hidden;
   white-space: nowrap;
-  /* top left corner */
   position: absolute;
-  right: -50px;
-  top: 40px;
-  /* 45 deg ccw rotation */
+  right: -7rem;
+  top: 4rem;
+
   -webkit-transform: rotate(45deg);
      -moz-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
        -o-transform: rotate(45deg);
           transform: rotate(45deg);
-  /* shadow */
-  -webkit-box-shadow: 0 0 10px #8892bf;
-     -moz-box-shadow: 0 0 10px #8892bf;
-          box-shadow: 0 0 10px #8892bf;
 }
 #forkme a {
-  border: 1px solid #c4c9df;
-  color: #fff;
   display: block;
-  font: bold 81.25% 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  margin: 1px 0;
-  padding: 10px 50px;
+  color: #fff;
+  font-weight: bold;
+  font-size: .875rem;
+  padding: .5rem 8rem .6rem 8rem;
   text-align: center;
   text-decoration: none;
-  /* shadow */
-  text-shadow: 0 0 5px #444;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+  background-color: #8892bf;
+
+  -webkit-transition: all 0.2s ease-out; 
+     -moz-transition: all 0.2s ease-out; 
+       -o-transition: all 0.2s ease-out; 
+          transition: all 0.2s ease-out; 
+}
+#forkme a:hover {
+  background-color: #4f5b92;
 }
 </style>
-<span id="forkme"><a href="https://github.com/salathe/phps.io">Fork me on GitHub</a></span>
+<div id="forkme"><a href="https://github.com/salathe/phps.io/blob/gh-pages/_data/projects.yml">Edit me on GitHub</a></div>
