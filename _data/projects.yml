@@ -21,6 +21,11 @@ phalanger:
     url: http://www.php-compiler.net/
     summary: "PHP runtime & compiler for .NET/Mono"
 
+ph7:
+    name: PH7
+    url: http://ph7.symisc.net/
+    summary: "An Embedded Implementation of PHP (C Library)"
+
 php:
     name: PHP
     url: http://php.net/
