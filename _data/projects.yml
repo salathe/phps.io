@@ -13,7 +13,7 @@ hippyvm:
 
 jphp:
     name: JPHP
-    url: https://github.com/dim-s/jphp
+    url: https://github.com/jphp-compiler/jphp
     summary: "PHP Compiler for JVM"
 
 ph7:
