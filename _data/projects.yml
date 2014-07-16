@@ -35,3 +35,8 @@ phpphp:
     name: PHPPHP
     url: https://github.com/ircmaxell/PHPPHP
     summary: "A PHP VM implementation in PHP"
+
+roadsend:
+    name: Roadsend-PHP-Raven
+    url: https://github.com/weyrick/roadsend-php-raven
+    summary: "Rewrite of the Roadsend PHP compiler in C++ using LLVM"
