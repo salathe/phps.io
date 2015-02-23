@@ -35,3 +35,8 @@ phpphp:
     name: PHPPHP
     url: https://github.com/ircmaxell/PHPPHP
     summary: "A PHP VM implementation in PHP"
+
+ephp:
+    name: ePHP
+    url: https://github.com/altenwald/ephp
+    summary: "PHP Interpreter in pure Erlang"
