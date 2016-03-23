@@ -16,6 +16,11 @@ jphp:
     url: https://github.com/jphp-compiler/jphp
     summary: "PHP Compiler for JVM"
 
+peachpie:
+    name: Peachpie
+    url: http://www.peachpie.io/
+    summary: "The Open-Source PHP Compiler for .NET"
+
 ph7:
     name: PH7
     url: http://ph7.symisc.net/
