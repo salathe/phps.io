@@ -19,7 +19,7 @@ jphp:
 peachpie:
     name: Peachpie
     url: http://www.peachpie.io/
-    summary: "The Open-Source PHP Compiler for .NET"
+    summary: "The Open-Source PHP Compiler for .NET. Successor to Phalanger"
 
 ph7:
     name: PH7
@@ -29,7 +29,7 @@ ph7:
 phalanger:
     name: Phalanger
     url: http://www.php-compiler.net/
-    summary: "PHP runtime & compiler for .NET/Mono"
+    summary: "PHP runtime & compiler for .NET/Mono. Predecessor of Peachpie"
 
 php:
     name: PHP
