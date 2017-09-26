@@ -45,3 +45,8 @@ ephp:
     name: ePHP
     url: https://github.com/altenwald/ephp
     summary: "PHP Interpreter in pure Erlang"
+
+tagua-vm:
+    name: Tagua VM
+    url: https://github.com/tagua-vm/tagua-vm
+    summary: "PHP Virtual Machine in Rust language and the LLVM Compiler Infrastructure"
