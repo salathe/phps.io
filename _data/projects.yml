@@ -4,8 +4,8 @@ hhvm:
     summary: "HHVM is an open-source virtual machine designed for executing programs written in Hack and PHP."
 
 hippyvm:
-    name: Hippyvm
-    url: http://hippyvm.com/
+    name: HippyVM
+    url: http://hippyvm.baroquesoftware.com/
     summary: "An implementation of the PHP language in RPython"
     links:
       - text: "Prototype PHP interpreter using the PyPy toolchain - Hippy VM"
